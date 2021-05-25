@@ -4,7 +4,7 @@ import java.util.*;
 public class Student4 {
 	int regd;
 	String name;
-	void YourDetails() {
+	void yourDetails() {
 		Scanner sc=new Scanner (System.in);
 		
 		System.out.println("Enter you regd and name ");
@@ -13,7 +13,7 @@ public class Student4 {
 			
 		}
 		
-	void Display() {
+	void display() {
 		System.out.println("Name="+name+" "+"registration number="+regd);
 	}
 
@@ -24,8 +24,8 @@ public class Student4 {
 		int n=sc.nextInt();
 		for(int i=1;i<=n;i++) {
 		
-		input.YourDetails();
-		input.Display();
+		input.yourDetails();
+		input.display();
 		}
 
 	}
