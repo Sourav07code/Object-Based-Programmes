@@ -5,11 +5,11 @@ public class Student4 {
 	int regd;
 	String name;
 	void yourDetails() {
-		Scanner sc=new Scanner (System.in);
+		Scanner in=new Scanner (System.in);
 		
 		System.out.println("Enter you regd and name ");
-			regd=sc.nextInt();
-			name=sc.next();
+			regd=in.nextInt();
+			name=in.next();
 			
 		}
 		
@@ -19,9 +19,9 @@ public class Student4 {
 
 	public static void main(String[] args) {
 		Student4 input=new Student4();
-		Scanner sc=new Scanner(System.in);
+		Scanner in=new Scanner(System.in);
 		System.out.println("Total no. of students");
-		int n=sc.nextInt();
+		int n=in.nextInt();
 		for(int i=1;i<=n;i++) {
 		
 		input.yourDetails();
